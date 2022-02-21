@@ -4,11 +4,11 @@
     "slug": "coral-photo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon_letter.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0dd4db"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,7 +17,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.grzabrodskiy.coral-photo"
     },
     "android": {
       "adaptiveIcon": {
